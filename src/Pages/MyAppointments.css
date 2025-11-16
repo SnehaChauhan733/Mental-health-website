@@ -1,0 +1,58 @@
+.my-appointments-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.appointments-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.appointment-card {
+  background: #f5f7ff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.appointment-card:hover {
+  background: #e0e7ff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.appointments-container {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f1f1f1;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+button {
+  margin-left: 1rem;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}

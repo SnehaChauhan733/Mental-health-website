@@ -1,0 +1,61 @@
+.anxiety-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.anxiety-options {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.anxiety-options button {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  background-color: #5d9cec;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.anxiety-options button:hover {
+  background-color: #4178c0;
+}
+
+.anxiety-section {
+  margin-bottom: 2rem;
+}
+
+.exercise-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.doctor-cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.doctor-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+}
+
+.doctor-card button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
